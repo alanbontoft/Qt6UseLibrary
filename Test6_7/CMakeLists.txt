@@ -4,9 +4,9 @@ project(Test6_7 VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(HOME_PROJECT_DIR /home/alan/projects)
-set(LIB_INCLUDE_DIR ${HOME_PROJECT_DIR}/QtUseLibrary/Test6_7/libraries/inc)
-set(LIB_LINK_DIR ${HOME_PROJECT_DIR}/QtUseLibrary/Test6_7/libraries/lib)
+set(HOME_PROJECT_DIR /home/alan/github)
+set(LIB_INCLUDE_DIR ${HOME_PROJECT_DIR}/Qt6UseLibrary/Test6_7/libraries/inc)
+set(LIB_LINK_DIR ${HOME_PROJECT_DIR}/Qt6UseLibrary/Test6_7/libraries/lib)
 set(MYQTLIB MyQtLib)
 
 find_package(Qt6 6.4 REQUIRED COMPONENTS Quick SerialPort)
